@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:background="#F3F6D3"
+    android:id="@+id/id_activity_korzina"
+    >
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/a"
+        android:backgroundTint="@color/white"
+        android:theme="@style/Theme.FDelivery.AppBarOverlay">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarForKorzina"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/Theme.FDelivery.PopupOverlay" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/listKorzina"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/a"
+        android:padding="16dp" />
+
+    <TextView
+        android:id="@+id/empty_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:visibility="gone"
+        android:layout_centerInParent="true"
+        android:text="Корзина пуста" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="17dp"
+        android:layout_alignParentBottom="true"
+        app:cardBackgroundColor="@color/sky"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Сумма: "
+                    android:textColor="#F3F6D3"
+                    android:textSize="20sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/total"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1000 р"
+                    android:textColor="#F3F6D3"
+                    android:textSize="20sp"
+                    android:textStyle="italic" />
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnPlaceOrder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="#F3F6D3"
+                android:text="Оформить заказ"
+                android:textColor="@color/darkSky"
+                android:textStyle="italic" />
+
+        </RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/btnClearCart"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="330dp"
+            android:background="@color/sky"
+            android:src="@drawable/ic_baseline_restore_from_trash_24" />
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+</RelativeLayout>

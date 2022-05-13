@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/root_element"
+    android:background="@drawable/img_4"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/logo"
+        android:layout_marginTop="30dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/l"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:gravity="center"
+        android:layout_below="@+id/logo">
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        >
+
+        <Button
+            android:id="@+id/btnEnter"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="30dp"
+            android:backgroundTint="@color/white"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/enter"
+            android:textColor="#16667A"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+        <Button
+            android:id="@+id/btnReg"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Регистрация"
+            android:textSize="15sp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:textStyle="italic"
+            android:paddingBottom="10dp"
+            android:layout_marginRight="30dp"
+            android:textColor="#16667A"
+            android:backgroundTint="@color/white"
+            android:layout_alignParentRight="true"
+            />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_desc"
+    app:cardElevation="10dp"
+    >
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/c"
+        android:backgroundTint="@color/white"
+        android:theme="@style/Theme.FDelivery.AppBarOverlay">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarForDesc"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/Theme.FDelivery.PopupOverlay" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/c"
+        android:orientation="vertical"
+        >
+
+
+        <ImageView
+            android:id="@+id/product_image1"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="2dp"
+            android:src="@drawable/img_1"
+            />
+
+
+        <LinearLayout
+            android:id="@+id/p"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/product_image1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/product_name1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="@color/white"
+                android:text="Говяжий гуляш с гречей"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="
+                    "
+                    android:id="@+id/g"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="
+                    "
+                    android:id="@+id/kal"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="
+                    "
+                    android:id="@+id/jir"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="
+                    "
+                    android:id="@+id/bel"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="
+                    "
+                    android:id="@+id/ugl"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="69dp">
+            <TextView
+
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:text="Греча, говядина,лук репчатый, смесь пеfffffffffffffffрцеffffffffffffв, морковь, паста томатная"
+                android:id="@+id/product_description1"/>
+
+                <TextView
+                    android:id="@+id/product_price1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="7dp"
+                    android:text="666 ₽"
+                    android:textColor="@color/black"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+                    android:layout_width="120dp"
+                    android:layout_height="42dp"
+                    android:id="@+id/n_btn"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="16dp"
+                    app:textSize="6dp"
+                    app:backGroundColor="@color/sky"
+                    app:initialNumber="1"
+                    app:finalNumber="20"
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="55dp"
+                    android:text="добавить"
+                    android:backgroundTint="@color/sky"
+                    android:layout_marginTop="3dp"
+                    android:textSize="13sp"
+                    android:layout_marginLeft="131dp"
+                    android:id="@+id/btnAddKorzina"/>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <com.andremion.counterfab.CounterFab
+        android:id="@+id/btnGoToCartFromDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginLeft="320dp"
+
+        android:backgroundTint="@color/white"
+        android:src="@drawable/ic_baseline_shopping_basket_24"
+        />
+
+</RelativeLayout>

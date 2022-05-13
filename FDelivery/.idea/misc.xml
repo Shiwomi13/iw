@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/iaros/AndroidStudioProjects/FDelivery/app/src/main/res/drawable-v24/ic_baseline_account_circle_24.xml" value="0.12129629629629629" />
+        <entry key="..\:/Users/iaros/AndroidStudioProjects/FDelivery/app/src/main/res/drawable-v24/ic_baseline_arrow_back_24.xml" value="0.12129629629629629" />
+        <entry key="..\:/Users/iaros/AndroidStudioProjects/FDelivery/app/src/main/res/drawable-v24/ic_baseline_shopping_basket_24.xml" value="0.12129629629629629" />
+        <entry key="..\:/Users/iaros/AndroidStudioProjects/FDelivery/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/iaros/AndroidStudioProjects/FDelivery/app/src/main/res/drawable/gradient.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/iaros/AndroidStudioProjects/FDelivery/app/src/main/res/drawable/ic_baseline_plus.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/iaros/AndroidStudioProjects/FDelivery/app/src/main/res/drawable/ic_baseline_rectangle_24.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/iaros/AndroidStudioProjects/FDelivery/app/src/main/res/drawable/ic_baseline_restaurant_menu_24.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/iaros/AndroidStudioProjects/FDelivery/app/src/main/res/drawable/ic_baseline_restore_from_trash_24.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/iaros/AndroidStudioProjects/FDelivery/app/src/main/res/drawable/ic_baseline_rounded_corner.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/iaros/AndroidStudioProjects/FDelivery/app/src/main/res/drawable/ic_exit.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/iaros/AndroidStudioProjects/FDelivery/app/src/main/res/drawable/ic_menu.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/iaros/AndroidStudioProjects/FDelivery/app/src/main/res/drawable/ic_menu_camera.xml" value="0.221875" />
+        <entry key="..\:/Users/iaros/AndroidStudioProjects/FDelivery/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/iaros/AndroidStudioProjects/FDelivery/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/iaros/AndroidStudioProjects/FDelivery/app/src/main/res/drawable/ic_orders.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/iaros/AndroidStudioProjects/FDelivery/app/src/main/res/drawable/side_nav_bar.xml" value="0.3828125" />
+        <entry key="..\:/Users/iaros/AndroidStudioProjects/FDelivery/app/src/main/res/layout/actionbar.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/iaros/AndroidStudioProjects/FDelivery/app/src/main/res/layout/activity_desc.xml" value="0.33" />
+        <entry key="..\:/Users/iaros/AndroidStudioProjects/FDelivery/app/src/main/res/layout/activity_food.xml" value="0.33" />
+        <entry key="..\:/Users/iaros/AndroidStudioProjects/FDelivery/app/src/main/res/layout/activity_foods.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/iaros/AndroidStudioProjects/FDelivery/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Users/iaros/AndroidStudioProjects/FDelivery/app/src/main/res/layout/activity_korzina.xml" value="0.33" />
+        <entry key="..\:/Users/iaros/AndroidStudioProjects/FDelivery/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/iaros/AndroidStudioProjects/FDelivery/app/src/main/res/layout/activity_menucategory.xml" value="0.22" />
+        <entry key="..\:/Users/iaros/AndroidStudioProjects/FDelivery/app/src/main/res/layout/activity_order_status.xml" value="0.17806484295845998" />
+        <entry key="..\:/Users/iaros/AndroidStudioProjects/FDelivery/app/src/main/res/layout/activity_reg.xml" value="0.28541666666666665" />
+        <entry key="..\:/Users/iaros/AndroidStudioProjects/FDelivery/app/src/main/res/layout/activity_signin.xml" value="0.28541666666666665" />
+        <entry key="..\:/Users/iaros/AndroidStudioProjects/FDelivery/app/src/main/res/layout/app_bar_home.xml" value="0.25" />
+        <entry key="..\:/Users/iaros/AndroidStudioProjects/FDelivery/app/src/main/res/layout/content_home.xml" value="0.33" />
+        <entry key="..\:/Users/iaros/AndroidStudioProjects/FDelivery/app/src/main/res/layout/fragment_gallery.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/iaros/AndroidStudioProjects/FDelivery/app/src/main/res/layout/fragment_home.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/iaros/AndroidStudioProjects/FDelivery/app/src/main/res/layout/fragment_slideshow.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/iaros/AndroidStudioProjects/FDelivery/app/src/main/res/layout/maket_category.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/iaros/AndroidStudioProjects/FDelivery/app/src/main/res/layout/maket_desc.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/iaros/AndroidStudioProjects/FDelivery/app/src/main/res/layout/maket_food.xml" value="0.33" />
+        <entry key="..\:/Users/iaros/AndroidStudioProjects/FDelivery/app/src/main/res/layout/maket_korzina_item.xml" value="0.33" />
+        <entry key="..\:/Users/iaros/AndroidStudioProjects/FDelivery/app/src/main/res/layout/maket_order_status.xml" value="0.33" />
+        <entry key="..\:/Users/iaros/AndroidStudioProjects/FDelivery/app/src/main/res/layout/menu_category.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/iaros/AndroidStudioProjects/FDelivery/app/src/main/res/layout/nav_header_home.xml" value="0.25" />
+        <entry key="..\:/Users/iaros/AndroidStudioProjects/FDelivery/app/src/main/res/layout/start_screen.xml" value="0.67" />
+        <entry key="..\:/Users/iaros/AndroidStudioProjects/FDelivery/app/src/main/res/menu/activity_main_drawer.xml" value="0.3605128205128205" />
+        <entry key="..\:/Users/iaros/AndroidStudioProjects/FDelivery/app/src/main/res/menu/home.xml" value="0.20572916666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

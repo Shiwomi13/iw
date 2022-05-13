@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    android:layout_marginBottom="30dp"
+    >
+
+
+    <ImageView
+        android:id="@+id/product_image"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginTop="2dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_2" />
+
+
+    <LinearLayout
+        android:id="@+id/p"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/product_image"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/product_name"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Пицца чикаго Ля прима"
+
+            android:textColor="@color/black_light"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/product_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+
+            android:text="Kz nsd klsdjfkljsd ghbdtnskjdhfj kshdfkjhsjdhfshfdjs hfdjshdfhjhsdj hfsjhdfhsjhdfhssj"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/product_price"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="225dp"
+        android:layout_toRightOf="@+id/p"
+        android:gravity="center"
+        android:text="1200"
+        android:textColor="@color/black_light"
+        android:textSize="23sp"
+ />
+
+    <ImageButton
+        android:id="@+id/buttonAddFood"
+        android:layout_width="128dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="260dp"
+        android:layout_toRightOf="@+id/p"
+        android:background="@color/white"
+        android:src="@drawable/ic_baseline_plus"
+        android:text="ADD"
+        app:textSize="5dp" />
+
+
+
+
+
+</RelativeLayout>
